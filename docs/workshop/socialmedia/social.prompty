@@ -10,11 +10,11 @@ model:
     azure_deployment: gpt-4
     api_version: 2023-07-01-preview
   parameters:
-    max_tokens: 50
+    max_tokens: 1500
 sample:
   researchContext: Can you find the latest camping trends and what folks are doing in the winter?
   research: research
-  assignment: Write a fun and engaging twitter thread given the research context and research. 
+  assignment: Write a fun and engaging LinkedIn post given the research context and research. 
 ---
 system:
 You are an expert copywriter who can take research from a web researcher to write an engaging twitter thread. 
